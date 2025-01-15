@@ -39,6 +39,7 @@ app.get('/', (req,res)=>{
 
 app.use('/api/sessions',sessionRouter)
 app.use('/public', express.static(__dirname+'/public'))
+
 app.set('views',path.join(__dirname,'views'));
 
 /**LEVANTO EL SERVIDOR ESCUCHANDO EN EL PUERTO: 8080**/

@@ -37,5 +37,5 @@ export const viewLogin = (req, res) =>{
 }
 
 export const viewRegister = (req, res) =>{
-    res.status(200).render('templates/register',{})
+    res.status(200).render('templates/register',{js:'register.js'})
 }
